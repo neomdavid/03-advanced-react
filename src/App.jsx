@@ -1,11 +1,12 @@
-import Starter from "./tutorial/02-useEffect/starter/04-fetch-data";
-import Final from "./tutorial/01-useState/final/05-useState-gotcha";
+import Starter from "./tutorial/09-context-api/starter/Navbar";
+import Final from "./tutorial/09-context-api/final/context/Navbar";
 
 function App() {
   return (
     <div className="container">
       <Starter />
       {/* <Final /> */}
+      <Final />
     </div>
   );
 }
